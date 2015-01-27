@@ -1,0 +1,9 @@
+#!/bin/sh
+
+rm -rf /opt/hashstack/programs/cudaHashcat/*.outfiles
+rm -rf /opt/hashstack/programs/cudaHashcat/*.induct
+rm -rf /opt/hashstack/programs/cudaHashcat/kernels
+rm -f /opt/hashstack/programs/cudaHashcat/eula.accepted
+rm -f /opt/hashstack/programs/cudaHashcat/cudaHashcat64.bin
+
+exit 0

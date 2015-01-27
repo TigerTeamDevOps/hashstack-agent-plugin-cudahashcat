@@ -1,0 +1,6 @@
+hashstack-agent-plugin-cudahashcat (1.32-0sagitta1) precise; urgency=low
+
+  * initial release
+
+ -- sagitta <sagitta@inceptus>  Fri, 23 Jan 2015 19:05:15 -0800
+
