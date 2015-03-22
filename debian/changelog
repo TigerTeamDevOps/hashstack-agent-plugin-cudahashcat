@@ -1,3 +1,9 @@
+hashstack-agent-plugin-cudahashcat (1.34-0sagitta1) precise; urgency=low
+
+  * Upgrade to cudaHashcat 1.34
+
+ -- epixoip <epixoip@token>  Sat, 21 Mar 2015 17:18:10 -0700
+
 hashstack-agent-plugin-cudahashcat (1.32-0sagitta1) precise; urgency=low
 
   * initial release
