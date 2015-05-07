@@ -1,3 +1,9 @@
+hashstack-agent-plugin-cudahashcat (1.36-0sagitta1) precise; urgency=low
+
+  * Upgrade to cudaHashcat 1.36
+
+ -- sagitta <sagitta@inceptus>  Thu, 07 May 2015 00:21:21 -0700
+
 hashstack-agent-plugin-cudahashcat (1.34-0sagitta1) precise; urgency=low
 
   * Upgrade to cudaHashcat 1.34
