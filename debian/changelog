@@ -1,3 +1,15 @@
+hashstack-agent-plugin-cudahashcat (1.37-1sagitta1) precise; urgency=medium
+
+  * Fix package deps
+
+ -- Jeremi Gosney <jgosney@sagitta.pw>  Fri, 16 Oct 2015 04:38:42 -0700
+
+hashstack-agent-plugin-cudahashcat (1.37-0sagitta1) precise; urgency=medium
+
+  * Upgrade to cudaHashcat 1.37 -- PARTIAL UPGRADE ONLY!
+
+ -- Jeremi Gosney <jgosney@sagitta.pw>  Fri, 16 Oct 2015 04:38:17 -0700
+
 hashstack-agent-plugin-cudahashcat (1.36-0sagitta1) precise; urgency=low
 
   * Upgrade to cudaHashcat 1.36

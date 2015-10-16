@@ -1,5 +1,5 @@
 Source: hashstack-agent-plugin-cudahashcat
-Maintainer: Jeremi Gosney <jgosney@stricture-group.com> 
+Maintainer: Jeremi Gosney <jgosney@sagitta.pw>
 Section: misc
 Priority: important
 Standards-Version: 3.9.2
@@ -7,7 +7,7 @@ Build-Depends: p7zip-full, make
 
 Package: hashstack-agent-plugin-cudahashcat
 Architecture: amd64
-Depends: ${shlibs:Depends}, ${misc:Depends}, hashstack-agent, nvidia-346
+Depends: libc6 (>= 2.3.4), hashstack-agent, hashstack-nvidia-driver, hashstack-nvidia-driver-uvm
 Description: cudaHashcat agent plugin for Hashstack
- cudaHashcat agent plugin for Hashstack
+ The cudaHashcat agent plugin for Hashstack
 
