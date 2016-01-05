@@ -171,8 +171,8 @@ foreach my $format (@{$$plugin{'algorithms'}})
     my $hash = $hashes{$form};
     my $mode = $format->{'mode'};
 
-    my $tasksize = `./cudaHashcat64.bin -d 1 -w 3 -m $mode '$hash' $wordlist -r rules/rockyou-30000.rule --status-automat --runtime 10 | sed -rn 's/STATUS.*PROGRESS\\t([0-9]+)\\t.*/\\1/p' | tail -n 1`;
-    $tasksize = $tasksize * 12;  # progress made in 10 sec * 12 ~= progress made in 120 sec
+    my $tasksize = `./cudaHashcat64.bin -d 1 -w 3 -m $mode '$hash' $wordlist -r rules/rockyou-30000.rule --status-automat --runtime 20 | sed -rn 's/STATUS.*PROGRESS\\t([0-9]+)\\t.*/\\1/p' | tail -n 1`;
+    $tasksize = $tasksize * 10 ;  # progress made in 20 sec * 10 ~= progress made in 200 sec
 
     say "        {";
     say "            \"algorithm\": \"$form\",";

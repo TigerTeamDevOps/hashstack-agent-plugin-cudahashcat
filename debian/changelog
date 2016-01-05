@@ -1,3 +1,9 @@
+hashstack-agent-plugin-cudahashcat (2.01-0sagitta1) precise; urgency=medium
+
+  * Upgrade to 2.01 -- this is still just a partial upgrade.
+
+ -- Jeremi Gosney <jgosney@sagitta.pw>  Mon, 04 Jan 2016 19:14:09 -0800
+
 hashstack-agent-plugin-cudahashcat (1.37-1sagitta1) precise; urgency=medium
 
   * Fix package deps
